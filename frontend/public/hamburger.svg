@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>hamburger</title>
+	<defs>
+		<image  width="22" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAMAAAC+oj0CAAAAAXNSR0IB2cksfwAAAORQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////2sN7jwAAAEx0Uk5TACCHrM7whh0RkPn/+I06/qpmPRIUZ63vOSTtqCcoq+Cl33zFBXmxYGGu5R8h4us+Qxjs1vTJBD8JqQpr8hz3MFanF3cqTEnG8e7ESvbAYk4AAAEHSURBVHicZZDbSwJBHIXPaaOCIjcsMbtgrlSKSFvQBaGn/JN7iXoS7KGXLkZtKhWWbbUbikhF0DS7azTbnodh5pvDNz+G8EMvEELjZ3D2ljGP/d5/fQzw5PvIsF//1tjHBG0fz7Kr82HQXqAbE08ST487M3f4S/o10XOIzHOSDQVnhZ2qE8uP8xbUrLYWr4j8ffoyhAu3mQui2MyehfBa3Tin2XnB/yR0znUiFNC5bklHYfQ617OC8fJkzWCg3m67KLKK0qnJipSrkg3yJNht0nxzok8uEb7cS1zrr0wdAVs1OSBS3Z3DUHfvONYmDDsuWiq9cZNNolyNuEsH8r/LQ6wobJfcxw//OE9AfpEWiwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="1" y="2"/>
+</svg>
