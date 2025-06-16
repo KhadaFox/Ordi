@@ -1,0 +1,90 @@
+{
+  "cardapio": [
+    {
+      "id": "prod-cafe",
+      "nome": "Café Expresso",
+      "descricao": "Café forte e aromático.",
+      "categoria": "Bebidas",
+      "subcategoria": "Cafés",
+      "url_imagem": "/images/cafe_expresso.webp",
+      "preco_unico": 8,
+      "variantes": []
+    },
+    {
+      "id": "prod-sanduiche",
+      "nome": "Sanduíche Natural",
+      "descricao": "Pão integral, queijo branco, peito de peru e alface.",
+      "categoria": "Comidas",
+      "subcategoria": "Lanches",
+      "url_imagem": "/images/sanduiche_natural.webp",
+      "preco_unico": null,
+      "variantes": [
+        {
+          "id": "var-sanduiche-frango",
+          "nome": "Frango",
+          "preco": 22,
+          "descricao": "Com patê de frango"
+        },
+        {
+          "id": "var-sanduiche-vegetariano",
+          "nome": "Vegetariano",
+          "preco": 20,
+          "descricao": "Com legumes frescos"
+        }
+      ]
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "03b7",
+      "comanda_id": "ABCDE123",
+      "numero_mesa": "1",
+      "itens_pedido": [
+        {
+          "produto_id": "cafe-com-leite",
+          "variante_id": "cafe-com-leite",
+          "quantidade": 1,
+          "preco_unitario": 7,
+          "nome_produto": "Café com leite",
+          "nome_variante": "Café com leite"
+        }
+      ],
+      "observacoes_gerais": "",
+      "valor_total": 7
+    },
+    {
+      "id": "abb6",
+      "comanda_id": "ABCDE123",
+      "numero_mesa": "1",
+      "itens_pedido": [
+        {
+          "produto_id": "cafe-com-leite",
+          "variante_id": "cafe-com-leite",
+          "quantidade": 1,
+          "preco_unitario": 7,
+          "nome_produto": "Café com leite",
+          "nome_variante": "Café com leite"
+        }
+      ],
+      "observacoes_gerais": "",
+      "valor_total": 7
+    },
+    {
+      "id": "d6ec",
+      "comanda_id": "ABCDE123",
+      "numero_mesa": "1",
+      "itens_pedido": [
+        {
+          "produto_id": "cafe-100-arabica",
+          "variante_id": "cafe-100-arabica",
+          "quantidade": 1,
+          "preco_unitario": 6,
+          "nome_produto": "Café 100% arábica",
+          "nome_variante": "Café 100% arábica"
+        }
+      ],
+      "observacoes_gerais": "",
+      "valor_total": 6
+    }
+  ]
+}
