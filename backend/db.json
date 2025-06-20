@@ -1,90 +1,475 @@
 {
   "cardapio": [
     {
-      "id": "prod-cafe",
-      "nome": "Café Expresso",
-      "descricao": "Café forte e aromático.",
-      "categoria": "Bebidas",
-      "subcategoria": "Cafés",
-      "url_imagem": "/images/cafe_expresso.webp",
-      "preco_unico": 8,
-      "variantes": []
+      "id": "cafe-100-arabica",
+      "name": "Café 100% arábica",
+      "price": 6,
+      "category": "Café",
+      "description": "Um café puro e aromático de grãos 100% arábica.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id1.png",
+      "variants": []
     },
     {
-      "id": "prod-sanduiche",
-      "nome": "Sanduíche Natural",
-      "descricao": "Pão integral, queijo branco, peito de peru e alface.",
-      "categoria": "Comidas",
-      "subcategoria": "Lanches",
-      "url_imagem": "/images/sanduiche_natural.webp",
-      "preco_unico": null,
-      "variantes": [
+      "id": "cafe-com-leite",
+      "name": "Café com leite",
+      "price": 7,
+      "category": "Café",
+      "description": "A clássica combinação de café fresco e leite cremoso.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id2.png",
+      "variants": []
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "price": 7,
+      "category": "Café",
+      "description": "Um shot intenso e concentrado de café.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id3.png",
+      "variants": []
+    },
+    {
+      "id": "doppio",
+      "name": "Doppio",
+      "price": 9,
+      "category": "Café",
+      "description": "Duplo shot de espresso para um sabor mais pronunciado.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id4.png",
+      "variants": []
+    },
+    {
+      "id": "macchiato",
+      "name": "Macchiato",
+      "price": 13,
+      "category": "Café",
+      "description": "Espresso com uma mancha de espuma de leite, leve e delicioso.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id5.png",
+      "variants": []
+    },
+    {
+      "id": "latte-macchiato",
+      "name": "Latte macchiato",
+      "price": 13,
+      "category": "Café",
+      "description": "Camadas de leite, espresso e espuma, uma bebida elegante.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id6.png",
+      "variants": []
+    },
+    {
+      "id": "cappuccino-cremoso",
+      "name": "Cappuccino cremoso",
+      "price": 12,
+      "category": "Café",
+      "description": "Uma mistura perfeita de espresso, leite vaporizado e espuma cremosa.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id7.png",
+      "variants": []
+    },
+    {
+      "id": "cappuccino-italiano",
+      "name": "Cappuccino italiano",
+      "price": 13,
+      "category": "Café",
+      "description": "Receita clássica italiana, com proporções equilibradas de café e leite.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id8.png",
+      "variants": []
+    },
+    {
+      "id": "cappuccino-borda",
+      "name": "Cappuccino com borda",
+      "price": 17,
+      "category": "Café",
+      "description": "Nosso cappuccino especial com borda decorada (chocolate, caramelo ou outro).",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id9.png",
+      "variants": []
+    },
+    {
+      "id": "chocolate-quente",
+      "name": "Chocolate quente",
+      "price": 14,
+      "category": "Bebidas",
+      "description": "Um abraço quente e saboroso em forma de bebida de chocolate.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id10.png",
+      "variants": []
+    },
+    {
+      "id": "chai-latte",
+      "name": "Chai Latte",
+      "price": 14,
+      "category": "Bebidas",
+      "description": "Bebida indiana à base de chá preto, especiarias e leite.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id11.png",
+      "variants": []
+    },
+    {
+      "id": "mochas",
+      "name": "Mochas",
+      "price": 16,
+      "category": "Café",
+      "description": "Combinação de café, chocolate e leite, uma delícia para os amantes de doce.",
+      "subcategory": "Bebidas Quentes",
+      "image": "src/assets/id12.png",
+      "variants": []
+    },
+    {
+      "id": "v60",
+      "name": "V60",
+      "price": 14,
+      "category": "Café",
+      "description": "Método de preparo de café coado que realça as notas do grão.",
+      "subcategory": "Cafés Especiais",
+      "image": "src/assets/id13.png",
+      "variants": []
+    },
+    {
+      "id": "prensa-francesa",
+      "name": "Prensa Francesa",
+      "price": 14,
+      "category": "Café",
+      "description": "Café encorpado e rico em óleos, feito na prensa francesa.",
+      "subcategory": "Cafés Especiais",
+      "image": "src/assets/id14.png",
+      "variants": []
+    },
+    {
+      "id": "aeropress",
+      "name": "Aeropress",
+      "price": 14,
+      "category": "Café",
+      "description": "Café de preparo rápido e versátil, com sabor limpo e suave.",
+      "subcategory": "Cafés Especiais",
+      "image": "src/assets/id15.png",
+      "variants": []
+    },
+    {
+      "id": "chocolate-gelado",
+      "name": "Chocolate gelado",
+      "price": 11,
+      "category": "Bebidas",
+      "description": "Refrescante bebida de chocolate, ideal para os dias quentes.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id16.png",
+      "variants": []
+    },
+    {
+      "id": "cappuccino-gelado",
+      "name": "Cappuccino gelado",
+      "price": 19,
+      "category": "Café",
+      "description": "A versão gelada do clássico cappuccino, cremoso e revigorante.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id17.png",
+      "variants": []
+    },
+    {
+      "id": "frape-de-cappuccino",
+      "name": "Frapé de cappuccino",
+      "price": 25,
+      "category": "Café",
+      "description": "Bebida gelada batida com café, leite e gelo, perfeita para refrescar.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id18.png",
+      "variants": []
+    },
+    {
+      "id": "soda-italiana",
+      "name": "Soda italiana",
+      "price": 16,
+      "category": "Bebidas",
+      "description": "Refrescante soda saborizada, levemente efervescente.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id19.png",
+      "variants": []
+    },
+    {
+      "id": "smoothie",
+      "name": "Smoothie",
+      "price": 20,
+      "category": "Bebidas",
+      "description": "Bebida cremosa de frutas frescas, nutritiva e saborosa.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id20.png",
+      "variants": []
+    },
+    {
+      "id": "milkshake",
+      "name": "Milkshake",
+      "price": 19,
+      "category": "Bebidas",
+      "description": "O clássico milkshake cremoso, perfeito para qualquer hora.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id21.png",
+      "variants": []
+    },
+    {
+      "id": "suco",
+      "name": "Suco",
+      "price": 11,
+      "category": "Bebidas",
+      "description": "Escolha entre nossos sucos frescos do dia.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id22.png",
+      "variants": []
+    },
+    {
+      "id": "suco-polpa",
+      "name": "Suco polpa",
+      "price": 14,
+      "category": "Bebidas",
+      "description": "Sucos feitos com polpa de frutas, com sabor intenso.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id23.png",
+      "variants": []
+    },
+    {
+      "id": "cha-gelado",
+      "name": "Chá gelado",
+      "price": 17,
+      "category": "Bebidas",
+      "description": "Chá gelado refrescante, disponível em diversos sabores.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id24.png",
+      "variants": []
+    },
+    {
+      "id": "pink-lemonade",
+      "name": "Pink lemonade",
+      "price": 18,
+      "category": "Bebidas",
+      "description": "Limonada rosa com um toque especial, doce e azedinha na medida certa.",
+      "subcategory": "Bebidas Geladas",
+      "image": "src/assets/id25.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-manteiga",
+      "name": "Pão na Chapa com Manteiga",
+      "price": 5,
+      "category": "Lanches",
+      "description": "Pão fresquinho tostado na chapa com manteiga.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id26.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-ovo",
+      "name": "Pão na Chapa com Ovo",
+      "price": 12,
+      "category": "Lanches",
+      "description": "Pão na chapa servido com ovo frito ou mexido.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id27.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-mortadela",
+      "name": "Pão na Chapa com Mortadela",
+      "price": 12,
+      "category": "Lanches",
+      "description": "Pão na chapa com fatias de mortadela.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id28.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-queijo-branco",
+      "name": "Pão na Chapa com Queijo Branco",
+      "price": 14,
+      "category": "Lanches",
+      "description": "Pão na chapa com queijo branco fresco.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id29.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-peru-queijo-branco",
+      "name": "Pão na Chapa com Peito de Peru e Queijo Branco",
+      "price": 17,
+      "category": "Lanches",
+      "description": "Pão na chapa com peito de peru e queijo branco derretido.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id30.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-ovo-bacon",
+      "name": "Pão na Chapa com Ovo e Bacon",
+      "price": 15,
+      "category": "Lanches",
+      "description": "Pão na chapa crocante com ovo e tiras de bacon.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id31.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-queijo",
+      "name": "Pão na Chapa com Queijo",
+      "price": 12,
+      "category": "Lanches",
+      "description": "Pão na chapa com queijo derretido.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id32.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-presunto-queijo",
+      "name": "Pão na Chapa com Presunto e Queijo",
+      "price": 14,
+      "category": "Lanches",
+      "description": "Pão na chapa com presunto e queijo derretido.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id33.png",
+      "variants": []
+    },
+    {
+      "id": "pao-chapa-mortadela-queijo",
+      "name": "Pão na Chapa com Mortadela e Queijo",
+      "price": 14,
+      "category": "Lanches",
+      "description": "Pão na chapa com mortadela e queijo derretido.",
+      "subcategory": "Pão na Chapa",
+      "image": "src/assets/id34.png",
+      "variants": []
+    },
+    {
+      "id": "ovos-mexidos-creme-leite",
+      "name": "Ovos Mexidos com Creme de Leite",
+      "price": 12,
+      "category": "Lanches",
+      "description": "Ovos mexidos cremosos com um toque de creme de leite.",
+      "subcategory": "Ovos Mexidos",
+      "image": "src/assets/id35.png",
+      "variants": []
+    },
+    {
+      "id": "omelete-1-proteina",
+      "name": "Omelete com 1 Proteína",
+      "price": 18,
+      "category": "Lanches",
+      "description": "Omelete leve e saborosa com uma opção de proteína à sua escolha.",
+      "subcategory": "Omeletes",
+      "image": "src/assets/id36.png",
+      "variants": []
+    },
+    {
+      "id": "omelete-2-proteinas",
+      "name": "Omelete com 2 Proteínas",
+      "price": 20,
+      "category": "Lanches",
+      "description": "Omelete com duas opções de proteína para um sabor mais rico.",
+      "subcategory": "Omeletes",
+      "image": "src/assets/id37.png",
+      "variants": []
+    },
+    {
+      "id": "omelete-3-proteinas",
+      "name": "Omelete com 3 Proteínas",
+      "price": 22,
+      "category": "Lanches",
+      "description": "Omelete completa com três opções de proteína, uma refeição reforçada.",
+      "subcategory": "Omeletes",
+      "image": "src/assets/id38.png",
+      "variants": []
+    },
+    {
+      "id": "adicional-salada",
+      "name": "Adicional de Salada",
+      "price": 4,
+      "category": "Lanches",
+      "description": "Porção extra de alface e tomate frescos.",
+      "subcategory": "Omeletes",
+      "image": "src/assets/id39.png",
+      "variants": []
+    },
+    {
+      "id": "coca-cola",
+      "name": "Coca-Cola",
+      "category": "Bebidas",
+      "description": "O sabor original e refrescante da Coca-Cola.",
+      "subcategory": "Refrigerante",
+      "image": "src/assets/id40.png",
+      "variants": [
         {
-          "id": "var-sanduiche-frango",
-          "nome": "Frango",
-          "preco": 22,
-          "descricao": "Com patê de frango"
+          "id": "220ml",
+          "name": "220ml",
+          "price": 4,
+          "image": "src/assets/id40.png"
         },
         {
-          "id": "var-sanduiche-vegetariano",
-          "nome": "Vegetariano",
-          "preco": 20,
-          "descricao": "Com legumes frescos"
+          "id": "350ml",
+          "name": "350ml",
+          "price": 6,
+          "image": "src/assets/id41.png"
+        },
+        {
+          "id": "600ml",
+          "name": "600ml",
+          "price": 8,
+          "image": "src/assets/id42.png"
+        },
+        {
+          "id": "1.5lt",
+          "name": "1,5Lt",
+          "price": 12,
+          "image": "src/assets/id43.png"
+        }
+      ]
+    },
+    {
+      "id": "guarana-antartica",
+      "name": "Guaraná Antártica",
+      "category": "Bebidas",
+      "description": "O delicioso sabor do Guaraná Antártica.",
+      "subcategory": "Refrigerante",
+      "image": "src/assets/id44.png",
+      "variants": [
+        {
+          "id": "350ml",
+          "name": "350ml",
+          "price": 4,
+          "image": "src/assets/id44.png"
+        },
+        {
+          "id": "600ml",
+          "name": "600ml",
+          "price": 7,
+          "image": "src/assets/id45.png"
+        },
+        {
+          "id": "1.5lt",
+          "name": "1,5L",
+          "price": 10,
+          "image": "src/assets/id46.png"
         }
       ]
     }
   ],
   "pedidos": [
     {
-      "id": "03b7",
-      "comanda_id": "ABCDE123",
-      "numero_mesa": "1",
+      "id": "07cb",
+      "comanda_id": "10",
+      "numero_mesa": "3",
       "itens_pedido": [
         {
-          "produto_id": "cafe-com-leite",
-          "variante_id": "cafe-com-leite",
+          "produto_id": "doppio",
+          "variante_id": "doppio",
           "quantidade": 1,
-          "preco_unitario": 7,
-          "nome_produto": "Café com leite",
-          "nome_variante": "Café com leite"
+          "preco_unitario": 9,
+          "nome_produto": "Doppio",
+          "nome_variante": "Doppio"
         }
       ],
       "observacoes_gerais": "",
-      "valor_total": 7
-    },
-    {
-      "id": "abb6",
-      "comanda_id": "ABCDE123",
-      "numero_mesa": "1",
-      "itens_pedido": [
-        {
-          "produto_id": "cafe-com-leite",
-          "variante_id": "cafe-com-leite",
-          "quantidade": 1,
-          "preco_unitario": 7,
-          "nome_produto": "Café com leite",
-          "nome_variante": "Café com leite"
-        }
-      ],
-      "observacoes_gerais": "",
-      "valor_total": 7
-    },
-    {
-      "id": "d6ec",
-      "comanda_id": "ABCDE123",
-      "numero_mesa": "1",
-      "itens_pedido": [
-        {
-          "produto_id": "cafe-100-arabica",
-          "variante_id": "cafe-100-arabica",
-          "quantidade": 1,
-          "preco_unitario": 6,
-          "nome_produto": "Café 100% arábica",
-          "nome_variante": "Café 100% arábica"
-        }
-      ],
-      "observacoes_gerais": "",
-      "valor_total": 6
+      "valor_total": 9
     }
   ]
 }
